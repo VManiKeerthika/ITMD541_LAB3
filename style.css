@@ -21,6 +21,7 @@ body {
 }
 
 #headline {
+    font: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
     margin-bottom: 10px;
     text-decoration: underline;
 }
@@ -39,7 +40,7 @@ form {
 }
 
 .form-label {
-    font: small-caps bold 12px/30px Georgia, serif;
+    font: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
     font-size: 1.2rem;
 }
 
