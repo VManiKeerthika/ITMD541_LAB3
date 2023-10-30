@@ -8,7 +8,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 600px;
-    background-color: #262626;
+    background-color: #1dc0b0;
     background-size: 100% 40%;
     background-repeat: no-repeat;
 }
@@ -37,6 +37,8 @@ form {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 10px;
+    background-color: red;
+    background-image: linear-gradient(red, orange, yellow, green, blue, indigo, violet);
 }
 
 .form-label {
@@ -47,8 +49,9 @@ form {
 .form-input {
     border: 3px solid black;
     border-radius: 5px;
-    width: 100%;
+    width: 95%;
     font-size: bold;
+    color: black;
 }
 
 @media (max-width: 768px) {
